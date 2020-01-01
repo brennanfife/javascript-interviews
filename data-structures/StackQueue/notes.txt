@@ -1,0 +1,4 @@
+Stacks/Queues
+- Access & Search is 0(n)
+- Insertion & Deletion is 0(1) 
+- Queues need to have a headIndex

@@ -1,0 +1,62 @@
+while vs do-while
+- While: the condition is tested at the beginning of the loop
+- Do-while: executes the statement in the code block at least once even if the condition fails
+
+FOR-IN LOOP (Objects)
+- iterates through props of an object and executres the loop's body once for each enumerable property of the object
+let student = { name:"Bill", age: 25, degree: "Masters" };
+for (let item in student) {
+   alert(student[item]);     // => "Bill", then 25, then "Masters"
+}
+
+FOR-EACH LOOP (Arrays)
+const arr = [1,2,3,4];
+arr.forEach(function(element){
+      console.log(element);      
+    });
+
+
+
+
+Continue and Break 
+for (let i = 1; i <= 10; i++){
+  console.log(i);
+}
+
+Prints...
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+- Continue — The continue statement terminates execution of the current iteration in a loop.
+for (let i = 1; i <= 10; i++){
+  if (i % 2 == 1) continue;
+  console.log(i);
+}
+
+Prints...
+2
+4
+6
+8
+10
+
+- Break — The break statement breaks (stops) the execution of a loop entirely.
+for (let i = 1; i <= 10; i++){
+  if (i == 6) break;
+  console.log(i);
+}
+
+Prints... 
+1
+2
+3
+4
+5

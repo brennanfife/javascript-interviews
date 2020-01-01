@@ -1,7 +1,0 @@
-Stacks/Queues
-- Access & Search is 0(n)
-- Insertion & Deletion is 0(1) 
-- Queues need to have a headIndex
-
-Arrays/Strings
-- Strings and arrays are similar other than that strings are immutable

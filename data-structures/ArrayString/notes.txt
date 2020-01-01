@@ -1,0 +1,7 @@
+Arrays/Strings
+- Strings and arrays are similar other than that strings are immutable
+
+When to use arrays over linked-lists
+- When you need to index/random access to elements.
+- You know the amount of elements in the array ahead of time some you can allocate the correct 
+amount of memory for the array.

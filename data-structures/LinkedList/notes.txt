@@ -1,0 +1,11 @@
+Can have a singly and doubly linked list. 
+- Access: 0(n)
+- Search: 0(n)
+- Insertion: 0(1)
+- Deletion: 0(1)
+
+When to use over an ARRAY?
+- You need CONSTANT-time insertion/deletion
+- You don't know how many items will be in the list. Otherwise, we'd need to redeclare with an array.
+- No need to randomly access any elements
+- Want to insert items in the middle of the list

@@ -1,0 +1,4 @@
+- For search, insert, and, delete its...
+    - 0(n) for worst case
+    - 0(1) for AVERAGE case (more likely)
+- Can't run access
