@@ -8,4 +8,4 @@ When to use over an ARRAY?
 - You need CONSTANT-time insertion/deletion
 - You don't know how many items will be in the list. Otherwise, we'd need to redeclare with an array.
 - No need to randomly access any elements
-- Want to insert items in the middle of the list
+- Want to insert items in the middle of the list. Don't need to reorganize entire data structure.

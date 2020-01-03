@@ -1,4 +1,13 @@
 Stacks/Queues
-- Access & Search is 0(n)
-- Insertion & Deletion is 0(1) 
+- Access: 0(n)
+- Search: 0(n)
+- Insertion: 0(1) 
+- Deletion: 0(1) 
 - Queues need to have a headIndex
+
+Common Questions
+1. Use an array to implement 3 stacks
+2. Implement a getMin() or getMax() method on your stack
+3. Create a queue using 2 stacks
+4. Sort a stack with the min values in order, on top. Use another stack for a buffer
+5. Write a function that returns true if a string of brackets is valid/balanced
